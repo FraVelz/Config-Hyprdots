@@ -68,6 +68,10 @@ chmod +x actualizar.py permisos.sh
 
 - **Contenido avanzado** - Requiere conocimientos básicos en Bash, Python y personalización de temas.
 
+- **Compatibilidad Hyprland** - Algunas directivas antiguas como `windowrule = suppressevent ...` pueden fallar en versiones nuevas; los configs y temas del repo usan `windowrulev2` cuando aplica.
+
+- **Zsh / Oh My Zsh** - El archivo `home/.zshrc` asume Oh My Zsh en `~/.oh-my-zsh`. Plugins externos como `zsh-autosuggestions` y `zsh-syntax-highlighting` se cargan solo si están instalados (en `~/.oh-my-zsh/custom/plugins/` o `/usr/share/zsh/plugins/`).
+
 - **Se recomienda leer la documentación** antes de ejecutar cualquier script:
   - [Guía de Uso](./Documentacion/guia-uso.md) - Para usuarios
   - [Guía de Mantenimiento](./Documentacion/guia-mantenimiento.md) - Para desarrolladores
